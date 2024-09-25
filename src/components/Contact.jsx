@@ -73,7 +73,7 @@ const Contact = () => {
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className='mt-12 flex flex-col gap-8 px-52'
+          className='mt-12 flex flex-col gap-8 sm:px-10 md:px-16 lg:px-28 xl:px-52'
         >
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Name</span>
@@ -81,7 +81,7 @@ const Contact = () => {
               type='text'
               name='name'
               value={form.name}
-              autocomplete="off"
+              autoComplete="off"
               onChange={handleChange}
               placeholder="What's your good name?"
               className='bg-[#1d1d30] py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
@@ -93,7 +93,7 @@ const Contact = () => {
               type='email'
               name='email'
               value={form.email}
-              autocomplete="off"
+              autoComplete="off"
               onChange={handleChange}
               placeholder="What's your web address?"
               className='bg-[#1d1d30] py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
@@ -105,7 +105,7 @@ const Contact = () => {
               rows={7}
               name='message'
               value={form.message}
-              autocomplete="off"
+              autoComplete="off"
               onChange={handleChange}
               placeholder='What you want to say?'
               className='bg-[#1d1d30] py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'

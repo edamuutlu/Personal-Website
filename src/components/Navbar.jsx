@@ -18,7 +18,7 @@ function Navbar() {
                 </div>
             </a>
 
-            <div className='flex items-center space-x-6'>
+            <div className='hidden items-center space-x-6 sm:hidden md:hidden lg:flex xl:flex'>
                 <button onClick={() => scrollToSection('about')} className='text-xl hover:text-[#7c4dff]'>About Me</button>
                 <button onClick={() => scrollToSection('technologies')} className='text-xl hover:text-[#7c4dff]'>Technologies</button>
                 <button onClick={() => scrollToSection('experience')} className='text-xl hover:text-[#7c4dff]'>Experience</button>

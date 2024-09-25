@@ -81,6 +81,7 @@ const Contact = () => {
               type='text'
               name='name'
               value={form.name}
+              autocomplete="off"
               onChange={handleChange}
               placeholder="What's your good name?"
               className='bg-[#1d1d30] py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
@@ -92,6 +93,7 @@ const Contact = () => {
               type='email'
               name='email'
               value={form.email}
+              autocomplete="off"
               onChange={handleChange}
               placeholder="What's your web address?"
               className='bg-[#1d1d30] py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
@@ -103,6 +105,7 @@ const Contact = () => {
               rows={7}
               name='message'
               value={form.message}
+              autocomplete="off"
               onChange={handleChange}
               placeholder='What you want to say?'
               className='bg-[#1d1d30] py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'

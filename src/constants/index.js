@@ -36,7 +36,7 @@ export const EXPERIENCES = [
     icon: sbm,
     iconBg: "#FFFFFF",
     date: "July 2023 - September 2023",
-    description: `During my internship at Sigorta Bilgi ve Gözetim Merkezi, I developed a web project using Java, Spring Boot, JavaScript, HTML, CSS, and MySQL. My key contributions included optimizing database queries, enhancing backend validation for security, and implementing comprehensive JUnit tests.".`,
+    description: `During my internship at Sigorta Bilgi ve Gözetim Merkezi, I developed a web project using Java, Spring Boot, JavaScript, HTML, CSS, and MySQL. My key contributions included optimizing database queries, enhancing backend validation for security, and implementing comprehensive JUnit tests.`,
     technologies: ["Java", "Spring Boot", "JUnit", "MySQL"],
   },
 ];

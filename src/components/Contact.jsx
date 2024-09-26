@@ -83,7 +83,7 @@ const Contact = () => {
               value={form.name}
               autoComplete="off"
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder="What's your name?"
               className='bg-[#1d1d30] py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>

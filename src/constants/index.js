@@ -67,6 +67,14 @@ export const PROJECTS = [
     link: "https://github.com/edamuutlu/React-Firebase-Chat-Website",
   },
   {
+    title: "Calendar Website",
+    image: project6,
+    description:
+      "A calendar application that helps users manage events and schedules effectively.",
+    technologies: ["JavaScript", "React", "Tailwind CSS"],
+    link: "https://github.com/edamuutlu/google-calendar-react",
+  },
+  {
     title: "EWA - Exit Way Assist (Teknofest)",
     image: project4,
     description:
@@ -81,15 +89,7 @@ export const PROJECTS = [
       "A personal portfolio website that showcases projects, skills, and contact information.",
     technologies: ["React", "Tailwind CSS", "Nodemailer"],
     link: "https://github.com/edamuutlu/My-Portfolio-Website",
-  },
-  {
-    title: "Calendar Website",
-    image: project6,
-    description:
-      "A calendar application that helps users manage events and schedules effectively.",
-    technologies: ["JavaScript", "React", "Tailwind CSS"],
-    link: "https://github.com/edamuutlu/google-calendar-react",
-  },
+  }
 ];
 
 

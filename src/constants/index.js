@@ -62,8 +62,8 @@ export const PROJECTS = [
     title: "Chat Website",
     image: project3,
     description:
-      "A fully functional chat website that allows users to browse albums, play songs, and manage playback, replicating core functionalities of a music streaming service.",
-    technologies: ["React", "JavaScript", "Firebase"],
+      "Chat Website is a modern web application that provides real-time messaging capabilities. It leverages Firebase for its backend, offering users a fast and secure chat experience.",
+    technologies: ["React", "Vite", "Firebase", "Zustand"],
     link: "https://github.com/edamuutlu/React-Firebase-Chat-Website",
   },
   {

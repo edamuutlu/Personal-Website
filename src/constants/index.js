@@ -18,7 +18,7 @@ export const EXPERIENCES = [
     icon: baykar,
     iconBg: "#FFFFFF",
     date: "October 2024 - Current",
-    description: `It is aimed to complete a compulsory summer internship in Baykar intranet software department with .Net and React programming languages.`,
+    description: `It is aimed to complete a compulsory fall internship in Baykar intranet software department with .Net and React programming languages.`,
     technologies: ["React", "JavaScript", "ASP.NET", "MsSQL"],
   },
   {

@@ -7,7 +7,7 @@ import project6 from "../assets/projects/Calendar.png";
 import baykar from "../assets/company/baykar.png";
 import sbm from "../assets/company/sbm.jpg";
 
-export const HERO_CONTENT = `Eda Nur Mutlu is a distinguished fourth-year Computer Engineering student at Marmara University, where she has consistently demonstrated exceptional academic performance, securing the top position in her department. She has acquired valuable industry experience through internships in full-stack development, during which she contributed to projects utilizing Spring Boot and React frameworks. Her commitment to professional development is exemplified by her proactive engagement in diverse projects, through which she continually enhances her technical proficiency and maintains currency with emerging technologies in the field.`;
+export const HERO_CONTENT = `I am a senior computer engineering student at Marmara University. I actively develop web frontend and backend projects.`;
 
 export const ABOUT_TEXT = `Eda Nur Mutlu is a dedicated computer engineering student with a track record of academic excellence and practical experience in software development. Her internships at Sigorta Bilgi ve Gözetim Merkezi and ongoing experience at Baykar Makina have honed her skills in full-stack development, particularly with Java, Spring Boot, and React. She is actively involved in projects like the TEKNOFEST Smart Transportation Competition, where her team's Exit Way Assist application reached the finalist stage. Eda's diverse skill set includes Java, Spring Boot, C, JavaScript, .Net, and Python, complemented by proficiency in Git and GitHub practices. She is passionate about leveraging technology to create innovative solutions and is eager to contribute to cutting-edge projects in the field of computer engineering.`;
 
@@ -47,7 +47,14 @@ export const PROJECTS = [
     image: project1,
     description:
       "E-Cars is an e-commerce platform for electric vehicles that allows users to filter by brand, model, price, and year, and enjoy personalized experiences with secure login. Smart vehicle suggestions enhance the shopping process.",
-    technologies: ["Next.js", "React", "Node.js", "MongoDB", "Sanity", "Stripe"],
+    technologies: [
+      "Next.js",
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Sanity",
+      "Stripe",
+    ],
     link: "https://github.com/edamuutlu/Electric-Cars-E-Commerce-Website",
   },
   {
@@ -83,15 +90,14 @@ export const PROJECTS = [
     link: "https://www.teknofest.org/tr/yarismalar/akilli-ulasim-yarismasi/",
   },
   {
-    title: "Portfolio Website",
+    title: "Personal Website",
     image: project5,
     description:
       "A personal portfolio website that showcases projects, skills, and contact information.",
     technologies: ["React", "Tailwind CSS", "Nodemailer"],
     link: "https://github.com/edamuutlu/My-Portfolio-Website",
-  }
+  },
 ];
-
 
 export const CONTACT = {
   address: "İstanbul",

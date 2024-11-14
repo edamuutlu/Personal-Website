@@ -1,4 +1,3 @@
-import React from "react";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -9,14 +8,14 @@ import { EXPERIENCES } from "../constants";
 
 const Experience = () => {
   return (
-    <section id="experience">
+    <section id="experience" className="pb-24 overflow-hidden">
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 1 }}
-        className="my-20 text-center text-4xl text-[#dfd9ff]"
+        className="my-20 text-center text-4xl font-semibold bg-gradient-to-b from-[#72A0C1] to-[#A3C1AD] bg-clip-text tracking-tight text-transparent"
       >
-        Experience
+        Experiences
       </motion.h2>
 
       <div className="mt-20 flex flex-col">
@@ -25,7 +24,7 @@ const Experience = () => {
             <VerticalTimelineElement
               key={`experience-${index}`}
               contentStyle={{
-                background: "#1d1836",
+                background: "#2A2A2A",
                 color: "#fff",
               }}
               contentArrowStyle={{ borderRight: "7px solid  #232631" }}
@@ -46,14 +45,14 @@ const Experience = () => {
                   {experience.title}
                 </h3>
                 <p
-                  className="text-secondary text-[16px] font-semibold"
+                  className="text-[#d3d3d3] text-[16px] font-semibold"
                   style={{ margin: 0 }}
                 >
                   {experience.company}
                 </p>
               </div>
 
-              <div className="mt-5 text-white-100 text-[14px] tracking-wider text-justify">
+              <div className="mt-5 text-[#d3d3d3] text-[14px] tracking-wider text-justify">
                 {experience.description}
               </div>
 
@@ -61,7 +60,7 @@ const Experience = () => {
                 {experience.technologies.map((tech, index) => (
                   <span
                     key={index}
-                    className="mr-2 mb-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-gray-300"
+                    className="mr-2 mb-2 rounded bg-gradient-to-b from-[#72A0C1] to-[#A3C1AD] bg-clip-text tracking-tight px-2 py-1 text-sm font-medium text-transparent"
                   >
                     {tech}
                   </span>
